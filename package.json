@@ -1,5 +1,6 @@
 {
   "name": "js-cs-part1",
+  "type": "module",
   "version": "1.0.0",
   "description": "> **인프런 강의: V8과 코어 해체기**를 공부하고 핵심 개념을 정리하는 저장소",
   "main": "index.js",
