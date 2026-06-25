@@ -4,4 +4,6 @@ import path from "node:path";
 const currentFolder = import.meta.dirname;
 const filePath = path.join(currentFolder, "message.txt");
 
-fs.writeFileSync(filePath, "안녕하세요! Node.JS가 파일 시스템에 접근했습니다.");
+const fileContent = fs.readFileSync(filePath, "utf8");
+
+console.log(`읽어온 파일 내용: ${fileContent}`);
