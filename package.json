@@ -5,7 +5,8 @@
   "description": "> **인프런 강의: V8과 코어 해체기**를 공부하고 핵심 개념을 정리하는 저장소",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/yunajoe/node-js-cs-part1#readme",
   "dependencies": {
-    "chalk": "^5.6.2"
+    "chalk": "^5.6.2",
+    "nodemon": "^3.1.14"
   }
 }
